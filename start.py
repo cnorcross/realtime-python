@@ -19,8 +19,8 @@ load_dotenv(override=True)
 CHANNELS = 1
 RATE = 24000
 CHUNK = 1024
-SILENCE_THRESHOLD = -30  # in dB
-MIN_SILENCE_DURATION = 0.5  # in seconds
+SILENCE_THRESHOLD = -20  # in dB
+MIN_SILENCE_DURATION = 1.0  # in seconds
 VOLUME = 1.0
 
 # WebSocket URL
